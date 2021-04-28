@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  array.join
+  if array.sze = 1
+    array.join
 end
