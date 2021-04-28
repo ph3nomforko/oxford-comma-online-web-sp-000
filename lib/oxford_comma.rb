@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  if array.sze = 1
+  if array.size = 1
     array.join
   end
 end
