@@ -3,7 +3,13 @@ def oxford_comma(array)
     array.join
   elsif array.size == 2
     array.join(" and ")
-  elsif array.size == 3
+  else
+    array.each do |list_pos|
+      if list_pos == array.last
+        list_pos = "and"
+        array.push = list_pos
+      end
+    end
     array.join(", ")
   end
 end
