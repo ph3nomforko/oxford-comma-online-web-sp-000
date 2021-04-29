@@ -6,8 +6,7 @@ def oxford_comma(array)
   else
     array.each do |list_pos|
       if list_pos == array.last
-        list_pos = "and"
-        array.push = list_pos
+        list_pos = "and" << list_pos
       end
     end
     array.join(", ")
